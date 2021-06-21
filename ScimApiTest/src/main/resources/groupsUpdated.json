@@ -1,0 +1,99 @@
+{
+     "totalResults":10,
+     "itemsPerPage":10,
+     "startIndex":1,
+     "schemas":["urn:ietf:params:scim:api:messages:2.0:ListResponse"],
+     "Resources":[{
+	 	"schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "1",
+	    "displayName": "Group1",
+	    "members":  [{
+	        "value": "4",
+	        "display": "Group1-1"
+	    },{
+	        "value": "5",
+	        "display": "Group1-2"
+	    }],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+     },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "2",
+	    "displayName": "Group2",
+	    "members":  [{
+	        "value": "6",
+	        "display": "Group2-1"
+	    },{
+	        "value": "7",
+	        "display": "Group2-2"
+	    }],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "3",
+	    "displayName": "Group3",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "4",
+	    "displayName": "Group1-1",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "5",
+	    "displayName": "Group1-2",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "6",
+	    "displayName": "Group2-1",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "7",
+	    "displayName": "Group2-2",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "8",
+	    "displayName": "Group2-3-updated",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "9",
+	    "displayName": "Group1-3-updated",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    },{
+	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+	    "id": "10",
+	    "displayName": "Group3-updated",
+	    "members":  [],
+	    "meta": {
+	        "resourceType": "Group"
+	    }
+    }]
+}

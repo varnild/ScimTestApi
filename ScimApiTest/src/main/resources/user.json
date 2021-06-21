@@ -1,0 +1,21 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "1",
+    "userName": "user1",
+    "name": {
+        "givenName": "user1",
+        "middleName": "user1",
+        "familyName": "user1"
+    },
+    "active": true,
+    "emails": [{
+        "primary": true,
+        "value": "user1.user@okta.local",
+        "type": "work",
+        "display": "user1.user@okta.local"
+    }],
+    "groups": [],
+    "meta": {
+        "resourceType": "User"
+    }
+}

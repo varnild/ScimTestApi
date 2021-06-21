@@ -1,0 +1,189 @@
+{
+     "totalResults":9,
+     "itemsPerPage":10,
+     "startIndex":1,
+     "schemas":["urn:ietf:params:scim:api:messages:2.0:ListResponse"],
+     "Resources":[
+     	{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "1",
+		    "userName": "user1",
+		    "name": {
+		        "givenName": "user1",
+		        "middleName": "user1",
+		        "familyName": "user1"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user1.user@okta.local",
+		        "type": "work",
+		        "display": "user1.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "2",
+		    "userName": "user2",
+		    "name": {
+		        "givenName": "user2",
+		        "middleName": "user2",
+		        "familyName": "user2"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user2.user@okta.local",
+		        "type": "work",
+		        "display": "user2.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "3",
+		    "userName": "user3",
+		    "name": {
+		        "givenName": "user3",
+		        "middleName": "user3",
+		        "familyName": "user3"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user3.user@okta.local",
+		        "type": "work",
+		        "display": "user3.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "4",
+		    "userName": "user1",
+		    "name": {
+		        "givenName": "user4",
+		        "middleName": "user4",
+		        "familyName": "user4"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user4.user@okta.local",
+		        "type": "work",
+		        "display": "user4.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "5",
+		    "userName": "user5",
+		    "name": {
+		        "givenName": "user5",
+		        "middleName": "user5",
+		        "familyName": "user5"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user5.user@okta.local",
+		        "type": "work",
+		        "display": "user5.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "6",
+		    "userName": "user6",
+		    "name": {
+		        "givenName": "user6",
+		        "middleName": "user6",
+		        "familyName": "user6"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user6.user@okta.local",
+		        "type": "work",
+		        "display": "user6.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "7",
+		    "userName": "user7-updated",
+		    "name": {
+		        "givenName": "user7-updated",
+		        "middleName": "user7-updated",
+		        "familyName": "user7-updated"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user7.user@okta.local",
+		        "type": "work",
+		        "display": "user7.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "8",
+		    "userName": "user8-updated",
+		    "name": {
+		        "givenName": "user8-updated",
+		        "middleName": "user8-updated",
+		        "familyName": "user8-updated"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user8.user@okta.local",
+		        "type": "work",
+		        "display": "user8.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		},{
+		    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+		    "id": "9",
+		    "userName": "user9-updated",
+		    "name": {
+		        "givenName": "user9-updated",
+		        "middleName": "user9-updated",
+		        "familyName": "user9-updated"
+		    },
+		    "active": true,
+		    "emails": [{
+		        "primary": true,
+		        "value": "user9.user@okta.local",
+		        "type": "work",
+		        "display": "user6.user@okta.local"
+		    }],
+		    "groups": [],
+		    "meta": {
+		        "resourceType": "User"
+		    }
+		}
+     ]
+}
