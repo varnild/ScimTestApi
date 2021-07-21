@@ -1,0 +1,15 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+    "id": "cn=queen",
+    "displayName": "Queen",
+    "members":  [{
+	        "value": "cn=freddieMercury",
+	        "display": "Freddie Mercury"
+	    },{
+	        "value": "cn=brianMay",
+	        "display": "Brian May"
+	    }],
+    "meta": {
+        "resourceType": "Group"
+    }
+}

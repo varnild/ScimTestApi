@@ -1,0 +1,31 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "cn=jimiHendrix",
+	"userName": "Jimi Hendrix",
+	"name": {
+		"givenName": "Jimi",
+		"middleName": "Experience",
+		"familyName": "Hendrix"
+	},
+	"active": true,
+	"emails": [
+		{
+			"primary": true,
+			"value": "jimi.hendrix@experience.local",
+			"type": "work",
+			"display": "jimi.hendrix@experience.local"
+		}
+	],
+	"groups": [
+		{
+			"value": "cn=singer",
+	   		"displayName": "Singer"
+		},{
+			"value": "cn=guitarist",
+	   		"displayName": "Guitarist"
+		}
+	],
+    "meta": {
+        "resourceType": "User"
+    }
+}

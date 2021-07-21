@@ -1,0 +1,17 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+    "id": "cn=ledZepplin",
+    "displayName": "Led Zepplin",
+    "members":  [{
+	        "value": "cn=jimmyPage",
+	        "display": "Jimmy Page",
+	        "$ref":"http://localhost:8880/SCIM/Users/cn=jimmyPage"
+	    },{
+	        "value": "cn=robertPlant",
+	        "display": "Robert Plant",
+	        "$ref":"http://localhost:8880/SCIM/Users/cn=robertPlant"
+	    }],
+    "meta": {
+        "resourceType": "Group"
+    }
+}

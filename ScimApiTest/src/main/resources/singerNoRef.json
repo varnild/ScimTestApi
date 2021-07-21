@@ -1,0 +1,21 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+    "id": "cn=singer",
+    "displayName": "Singer",
+    "members":  [{
+	        "value": "cn=jimiHendrix",
+	        "display": "Jimi Hendix"
+	    },{
+	        "value": "cn=kurtCobain",
+	        "display": "Kurt Cobain"
+	    },{
+	        "value": "cn=freddieMercury",
+	        "display": "Freddie Mercury"
+	    },{
+	        "value": "cn=robertPlant",
+	        "display": "Robert Plant"
+	    }],
+    "meta": {
+        "resourceType": "Group"
+    }
+}

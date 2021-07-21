@@ -1,0 +1,30 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "cn=robertPlant",
+	"userName": "Robert Plant",
+	"name": {
+		"givenName": "Robert",
+		"middleName": "Led Zepplin",
+		"familyName": "Plant"
+	},
+	"active": true,
+	"emails": [
+		{
+			"primary": true,
+			"value": "robert.plant@ledzepplin.local",
+			"type": "work",
+			"display": "robert.plant@ledzepplin.loca"
+		}
+	],
+    "groups": [
+    	{
+			"value": "cn=singer",
+	   		"displayName": "Singer"
+		},{
+			"value": "cn=ledZepplin",
+	   		"displayName": "Led Zepplin"
+		}],
+    "meta": {
+        "resourceType": "User"
+    }
+}

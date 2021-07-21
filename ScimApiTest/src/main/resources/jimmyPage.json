@@ -1,0 +1,30 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "cn=jimmyPage",
+	"userName": "Jimmy Page",
+	"name": {
+		"givenName": "Jimmy",
+		"middleName": "Led Zepplin",
+		"familyName": "Page"
+	},
+	"active": true,
+	"emails": [
+		{
+			"primary": true,
+			"value": "jimmy.page@ledzepplin.local",
+			"type": "work",
+			"display": "jimmy.page@ledzepplin.local"
+		}
+	],
+    "groups": [
+    	{
+			"value": "cn=guitarist",
+	   		"displayName": "Guitarist"
+		},{
+			"value": "cn=ledZepplin",
+	   		"displayName": "Led Zepplin"
+		}],
+    "meta": {
+        "resourceType": "User"
+    }
+}

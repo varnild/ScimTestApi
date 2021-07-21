@@ -1,0 +1,30 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "cn=freddieMercury",
+	"userName": "Freddie Mercury",
+	"name": {
+		"givenName": "Freddie",
+		"middleName": "Queen",
+		"familyName": "Mercury"
+	},
+	"active": true,
+	"emails": [
+		{
+			"primary": true,
+			"value": "freddie.mercury@queen.local",
+			"type": "work",
+			"display": "freddie.mercury@queen.local"
+		}
+	],
+    "groups": [
+    	{
+			"value": "cn=singer",
+	   		"displayName": "Singer"
+		},{
+			"value": "cn=queen",
+	   		"displayName": "Queen"
+		}],
+    "meta": {
+        "resourceType": "User"
+    }
+}

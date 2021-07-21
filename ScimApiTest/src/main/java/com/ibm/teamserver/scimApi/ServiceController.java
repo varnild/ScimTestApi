@@ -15,7 +15,7 @@ public class ServiceController {
 	
 	@GetMapping(path= "/toggleServerInError", produces="application/scim+json")
 	@ResponseBody
-	public String toglgeInError() {
+	public String toggelInError() {
 		service.toggleServerInError();
 		return "{ \"server on error\" : " + Boolean.toString(service.SERVER_ON_ERROR) + " }" ;
 	}
@@ -25,6 +25,13 @@ public class ServiceController {
 	public String updateRepo() {
 		service.updateRepo();
 		return "{ \"repo udated\" : " + Boolean.toString(service.REPO_UPDATED) + " }" ;
+	}
+	
+	@GetMapping(path= "/noRef", produces="application/scim+json")
+	@ResponseBody
+	public String toggleRef() {
+		service.toggleRef();
+		return "{ \"With ref\" : " + Boolean.toString(!service.TOGGLE_REF) + " }" ;
 	}
 
 }

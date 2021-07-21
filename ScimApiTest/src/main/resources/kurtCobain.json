@@ -1,0 +1,31 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "cn=kurtCobain",
+	"userName": "Kurt Cobain",
+	"name": {
+		"givenName": "Kurt",
+		"middleName": "Nirvana",
+		"familyName": "Cobain"
+	},
+	"active": true,
+	"emails": [
+		{
+			"primary": true,
+			"value": "kurt.cobain@nirvana.local",
+			"type": "work",
+			"display": "kurt.cobain@nirvana.local"
+		}
+	],
+    "groups": [
+    	{
+			"value": "cn=singer",
+	   		"displayName": "Singer"
+		},{
+			"value": "cn=guitarist",
+	   		"displayName": "Guitarist"
+		}
+    ],
+    "meta": {
+        "resourceType": "User"
+    }
+}

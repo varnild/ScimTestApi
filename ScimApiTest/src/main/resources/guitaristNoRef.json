@@ -1,0 +1,21 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+    "id": "cn=guitarist",
+    "displayName": "Guitarist",
+    "members":  [{
+	        "value": "cn=jimiHendrix",
+	        "display": "Jimi Hendix"
+	    },{
+	        "value": "cn=kurtCobain",
+	        "display": "Kurt Cobain"
+	    },{
+	        "value": "cn=jimmyPage",
+	        "display": "Jimmy Page"
+	    },{
+	        "value": "cn=brianMay",
+	        "display": "Brian May"
+	    }],
+    "meta": {
+        "resourceType": "Group"
+    }
+}

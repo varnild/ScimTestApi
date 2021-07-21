@@ -1,0 +1,25 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+    "id": "cn=singer",
+    "displayName": "Singer",
+    "members":  [{
+	        "value": "cn=jimiHendrix",
+	        "display": "Jimi Hendix",
+	        "$ref":"http://localhost:8880/SCIM/Users/cn=jimiHendrix"
+	    },{
+	        "value": "cn=kurtCobain",
+	        "display": "Kurt Cobain",
+	        "$ref":"http://localhost:8880/SCIM/Users/cn=kurtCobain"
+	    },{
+	        "value": "cn=freddieMercury",
+	        "display": "Freddie Mercury",
+	        "$ref":"http://localhost:8880/SCIM/Users/cn=freddieMercury"
+	    },{
+	        "value": "cn=robertPlant",
+	        "display": "Robert Plant",
+	        "$ref":"http://localhost:8880/SCIM/Users/cn=robertPlant"
+	    }],
+    "meta": {
+        "resourceType": "Group"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+    "id": "cn=ledZepplin",
+    "displayName": "Led Zepplin",
+    "members":  [{
+	        "value": "cn=jimmyPage",
+	        "display": "Jimmy Page"
+	    },{
+	        "value": "cn=robertPlant",
+	        "display": "Robert Plant"
+	    }],
+    "meta": {
+        "resourceType": "Group"
+    }
+}

@@ -1,73 +1,73 @@
 {
-     "totalResults":7,
+     "totalResults":4,
      "itemsPerPage":10,
      "startIndex":1,
      "schemas":["urn:ietf:params:scim:api:messages:2.0:ListResponse"],
      "Resources":[{
 	 	"schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
-	    "id": "1",
-	    "displayName": "Group1",
+	    "id": "cn=guitarist",
+	    "displayName": "Guitarist",
 	    "members":  [{
-	        "value": "4",
-	        "display": "Group1-1"
+	        "value": "cn=jimiHendrix",
+	        "display": "Jimi Hendix"
 	    },{
-	        "value": "5",
-	        "display": "Group1-2"
+	        "value": "cn=kurtCobain",
+	        "display": "Kurt Cobain"
+	    },{
+	        "value": "cn=jimmyPage",
+	        "display": "Jimmy Page"
+	    },{
+	        "value": "cn=brianMay",
+	        "display": "Brian May"
 	    }],
 	    "meta": {
 	        "resourceType": "Group"
 	    }
      },{
 	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
-	    "id": "2",
-	    "displayName": "Group2",
+	    "id": "cn=singer",
+	    "displayName": "Singer",
 	    "members":  [{
-	        "value": "6",
-	        "display": "Group2-1"
+	        "value": "cn=jimiHendrix",
+	        "display": "Jimi Hendix"
 	    },{
-	        "value": "7",
-	        "display": "Group2-2"
+	        "value": "cn=kurtCobain",
+	        "display": "Kurt Cobain"
+	    },{
+	        "value": "cn=freddieMercury",
+	        "display": "Freddie Mercury"
+	    },{
+	        "value": "cn=robertPlant",
+	        "display": "Robert Plant"
 	    }],
 	    "meta": {
 	        "resourceType": "Group"
 	    }
     },{
 	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
-	    "id": "3",
-	    "displayName": "Group3",
-	    "members":  [],
+	    "id": "cn=queen",
+	    "displayName": "Queen",
+	    "members":  [{
+	        "value": "cn=freddieMercury",
+	        "display": "Freddie Mercury"
+	    },{
+	        "value": "cn=brianMay",
+	        "display": "Brian May"
+	    }],
 	    "meta": {
 	        "resourceType": "Group"
 	    }
     },{
 	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
-	    "id": "4",
-	    "displayName": "Group1-1",
-	    "members":  [],
-	    "meta": {
-	        "resourceType": "Group"
-	    }
-    },{
-	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
-	    "id": "5",
-	    "displayName": "Group1-2",
-	    "members":  [],
-	    "meta": {
-	        "resourceType": "Group"
-	    }
-    },{
-	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
-	    "id": "6",
-	    "displayName": "Group2-1",
-	    "members":  [],
-	    "meta": {
-	        "resourceType": "Group"
-	    }
-    },{
-	    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
-	    "id": "7",
-	    "displayName": "Group2-2",
-	    "members":  [],
+	    "id": "cn=ledZepplin",
+	    "displayName": "Led Zepplin",
+	    "members":  [{
+	        "value": "cn=jimmyPage",
+	        "display": "Jimmy Page"
+	    },{
+	        "value": "cn=robertPlant",
+	        "display": "Robert Plant"
+	    }],
 	    "meta": {
 	        "resourceType": "Group"
 	    }

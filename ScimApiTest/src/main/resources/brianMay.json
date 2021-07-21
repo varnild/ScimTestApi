@@ -1,0 +1,30 @@
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "cn=brianMay",
+	"userName": "Brian May",
+	"name": {
+		"givenName": "Brian",
+		"middleName": "Queen",
+		"familyName": "May"
+	},
+	"active": true,
+	"emails": [
+		{
+			"primary": true,
+			"value": "brian.mayr@queen.local",
+			"type": "work",
+			"display": "brian.mayr@queen.local"
+		}
+	],
+    "groups": [
+    	{
+			"value": "cn=guitarist",
+	   		"displayName": "Guitarist"
+		},{
+			"value": "cn=queen",
+	   		"displayName": "Queen"
+		}],
+    "meta": {
+        "resourceType": "User"
+    }
+}
